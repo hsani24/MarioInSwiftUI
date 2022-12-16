@@ -14,6 +14,7 @@
 		22A4BC31294C795800DBA82F /* MarioInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4BC30294C795800DBA82F /* MarioInSwiftUITests.swift */; };
 		22A4BC3B294C795800DBA82F /* MarioInSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4BC3A294C795800DBA82F /* MarioInSwiftUIUITests.swift */; };
 		22A4BC3D294C795800DBA82F /* MarioInSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4BC3C294C795800DBA82F /* MarioInSwiftUIUITestsLaunchTests.swift */; };
+		22A4BC4A294C89A300DBA82F /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4BC49294C89A300DBA82F /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		22A4BC36294C795800DBA82F /* MarioInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A4BC3A294C795800DBA82F /* MarioInSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioInSwiftUIUITests.swift; sourceTree = "<group>"; };
 		22A4BC3C294C795800DBA82F /* MarioInSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioInSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22A4BC49294C89A300DBA82F /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				22A4BC1F294C795700DBA82F /* MarioInSwiftUIApp.swift */,
 				22A4BC21294C795700DBA82F /* ContentView.swift */,
+				22A4BC49294C89A300DBA82F /* CharacterView.swift */,
 				22A4BC23294C795800DBA82F /* Assets.xcassets */,
 				22A4BC25294C795800DBA82F /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A4BC4A294C89A300DBA82F /* CharacterView.swift in Sources */,
 				22A4BC22294C795700DBA82F /* ContentView.swift in Sources */,
 				22A4BC20294C795700DBA82F /* MarioInSwiftUIApp.swift in Sources */,
 			);
